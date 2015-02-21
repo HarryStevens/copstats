@@ -1,0 +1,30 @@
+/*General*/
+.center {
+	text-align: center;
+}
+
+/*Sections*/
+.navbar {
+	margin-bottom: 0px;
+}
+.banner {
+	position: fixed;
+	padding: 0;
+	z-index: -1;
+}
+.welcome {
+	margin-top: 150px;
+	color: #e7e7e7;
+}
+.welcome-title {
+	font-size: 56px;
+	text-align: center;
+}
+.welcome-list {
+	font-size: 30px;
+}
+.welcome-sign-in {
+	margin-top: 20px;
+	font-size: 30px;
+}
+
