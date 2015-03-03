@@ -1,25 +1,44 @@
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
 /*General*/
 .center {
 	text-align: center;
 }
 
 /*Sections*/
+
+/*Navbar*/
 .navbar {
 	margin-bottom: 0px;
+	background: #337AB7;
+	border-color: #2E6DA4;
+}
+.navbar-default .navbar-nav > li > a {
+	color: #eee !important;
+}
+.navbar-default .navbar-nav > li > a:hover {
+	color: #ddd !important;
 }
 .navbar-brand {
 	font-style: italic;
 	font-size: 22px;
-	color: #222 !important;;
+	color: #fff !important;
 }
+
+/*Welcome*/
 .banner {
-	position: fixed;
+	position: absolute;
 	padding: 0;
 	z-index: -1;
+	width: 1440px;
 }
 .welcome {
 	margin-top: 150px;
 	color: #e7e7e7;
+	height: 100vh;
 }
 .welcome-title {
 	font-size: 56px;
@@ -31,6 +50,44 @@
 .welcome-sign-in {
 	margin-top: 20px;
 	font-size: 30px;
+}
+
+/*About*/
+.about {
+	background: #e7e7e7;
+	margin: 0;
+	margin-top: -199px;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-top: 40px;
+	padding-bottom: 70px;
+	width: 100%;
+	text-shadow: 1px 1px #fff;
+}
+.about-title {
+	font-size: 56px;
+	margin-bottom: 50px;
+	
+}
+.about-header {
+	font-size: 30px;
+	margin-bottom: 10px;
+	text-align: center;
+}
+.border-right {
+	border-right: 1px solid #ccc;
+}
+.about-section {
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+/*Footer*/
+.footer {
+	height: 100vh;
+	background: #fff;
+	margin: 0px;
+	width: 100%;
 }
 
 /*Modal*/
@@ -53,8 +110,8 @@
 	height: 38px;
 }
 .modal-header {
-	background-color: #f8f8f8;
-	border-color: #e7e7e7;
-	color: #333;
+	background-color: #337AB7;
+	border-color: #2E6DA4;
+	color: #fff;
 }
 
