@@ -7,6 +7,11 @@
 .navbar {
 	margin-bottom: 0px;
 }
+.navbar-brand {
+	font-style: italic;
+	font-size: 22px;
+	color: #222 !important;;
+}
 .banner {
 	position: fixed;
 	padding: 0;
@@ -26,5 +31,30 @@
 .welcome-sign-in {
 	margin-top: 20px;
 	font-size: 30px;
+}
+
+/*Modal*/
+#welcome-modal .modal-dialog {
+	top: 200px;
+	width: 470px;
+} 
+#welcome-modal input{
+	height: 35px;
+	padding-left: 10px;
+	margin-right: 10px;
+	border-radius: 4px;
+	border: 1px solid #ddd;
+}
+#welcome-modal button {
+	margin-bottom: 6px;
+}
+.welcome-submit {
+	margin-right: 0px !important;
+	height: 38px;
+}
+.modal-header {
+	background-color: #f8f8f8;
+	border-color: #e7e7e7;
+	color: #333;
 }
 
