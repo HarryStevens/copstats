@@ -62,11 +62,13 @@ html, body {
 	padding-top: 40px;
 	padding-bottom: 70px;
 	width: 100%;
+	height: 100vh;
 	text-shadow: 1px 1px #fff;
 }
 .about-title {
 	font-size: 56px;
-	margin-bottom: 50px;
+	margin-top: 20px;
+	margin-bottom: 80px;
 	
 }
 .about-header {
@@ -84,10 +86,11 @@ html, body {
 
 /*Footer*/
 .footer {
-	height: 100vh;
-	background: #fff;
+	background: #000;
+	color: #fff;
 	margin: 0px;
 	width: 100%;
+	padding: 20px;
 }
 
 /*Modal*/
@@ -113,5 +116,14 @@ html, body {
 	background-color: #337AB7;
 	border-color: #2E6DA4;
 	color: #fff;
+}
+.close {
+	color: #fff;
+	background: #fff;
+	opacity: 1;
+}
+.close:hover {
+	color: #ddd;
+	opacity: 1;
 }
 
