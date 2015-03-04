@@ -1,6 +1,6 @@
 html, body {
-    max-width: 100%;
-    overflow-x: hidden;
+	max-width: 100%;
+	overflow-x: hidden;
 }
 
 /*General*/
@@ -34,9 +34,10 @@ html, body {
 	padding: 0;
 	z-index: -1;
 	width: 1440px;
+	margin-top: 50px;
 }
 .welcome {
-	margin-top: 150px;
+	margin-top: 200px;
 	color: #e7e7e7;
 	height: 100vh;
 }
@@ -65,11 +66,13 @@ html, body {
 	height: 100vh;
 	text-shadow: 1px 1px #fff;
 }
+.about p {
+	font-size: 16px;
+}
 .about-title {
 	font-size: 56px;
-	margin-top: 20px;
+	margin-top: 40px;
 	margin-bottom: 80px;
-	
 }
 .about-header {
 	font-size: 30px;
@@ -84,21 +87,45 @@ html, body {
 	padding-right: 30px;
 }
 
+/*Contact*/
+.contact {
+	height: 100vh;
+	width: 100%;
+	margin: 0px;
+	background: #DDB088;
+}
+
 /*Footer*/
 .footer {
 	background: #000;
 	color: #fff;
 	margin: 0px;
 	width: 100%;
-	padding: 20px;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.footer-header {
+	font-size: 20px;
+	margin-bottom: 5px;
+}
+.footer-section {
+	padding-left: 30px;
+	padding-right: 30px;
+}
+.footer-credits {
+	margin-top: 20px;
+	text-align: center;
+	font-size: 12px;
 }
 
 /*Modal*/
 #welcome-modal .modal-dialog {
 	top: 200px;
 	width: 470px;
-} 
-#welcome-modal input{
+}
+#welcome-modal input {
 	height: 35px;
 	padding-left: 10px;
 	margin-right: 10px;

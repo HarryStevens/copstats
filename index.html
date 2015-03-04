@@ -12,9 +12,9 @@
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" />
 		<link rel="stylesheet" href="css/styles.css" />
 	</head>
-	<body>
+	<body id="home">
 
-		<nav class="navbar navbar-default navbar-static-top">
+		<nav class="navbar navbar-default navbar-fixed-top">
 			<div class="container">
 
 				<!-- Brand and toggle get grouped for better mobile display -->
@@ -25,7 +25,7 @@
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 					</button>
-					<a class="navbar-brand active" href="#">CopStats</a>
+					<a class="navbar-brand active" href="#home">CopStats</a>
 				</div>
 
 				<!-- Collect the nav links, forms, and other content for toggling -->
@@ -35,7 +35,7 @@
 							<a href="#about-scroll">About <span class="sr-only">(current)</span></a>
 						</li>
 						<li>
-							<a href="#">Contact</a>
+							<a href="#contact-scroll">Contact</a>
 						</li>
 
 					</ul>
@@ -91,7 +91,7 @@
 
 			</div>
 		</div>
-		
+
 		<!-- About -->
 		<div id="about-scroll" class="container about">
 			<div class="about-title center">
@@ -100,10 +100,9 @@
 			<div class="row">
 				<div class="col-md-4 about-section border-right">
 					<div class="about-header">
-						<img style="margin-bottom: 20px;" src="img/computer.png" width="25%"><br />
+						<img style="margin-bottom: 20px;" src="img/computer.png" width="25%">
+						<br />
 						COMPSTAT Data
-						
-						
 
 					</div>
 					<p>
@@ -144,45 +143,77 @@
 				</div>
 			</div>
 		</div>
-			
-			
-			<!-- Footer -->
-			<div class="container footer">
-				This is the mother fucking footer yo!
+		
+		<!-- Contact -->
+		<div id="contact-scroll" class="container contact">
+			<div class="row">
+				<div class="col-md-12" style="margin-top: 80px;font-size: 56px; text-align: center; text-shadow: 1px 1px #fff;">
+					Contact
+				</div>
 			</div>
+		</div>
 
-			<!-- Modal -->
-			<div class="modal fade" id="welcome-modal">
-				<div class="modal-dialog">
-					<div class="modal-content">
-						<div class="modal-header">
-							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-								<span aria-hidden="true">&times;</span>
-							</button>
-							<h4 class="modal-title">Sign in to CopStats</h4>
-						</div>
-						<div class="modal-body">
+		<!-- Footer -->
+		<div class="container footer">
+			<div class="row">
+				<div class="col-md-4 footer-section">
+					<div class="footer-header">
+						Footer Title
+					</div>
+					Footer text.
+				</div>
+				<div class="col-md-4 footer-section">
+					<div class="footer-header">
+						Footer Title
+					</div>
+					Footer text.
+				</div>
+				<div class="col-md-4 footer-section">
+					<div class="footer-header">
+						Footer Title
+					</div>
+					Footer text.
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12 footer-credits">
+					&copy; 2015 by CopStats
+				</div>
+			</div>
+		</div>
 
-							<form>
+		<!-- Modal -->
+		<div class="modal fade" id="welcome-modal">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+						</button>
+						<h4 class="modal-title">Sign in to CopStats</h4>
+					</div>
+					<div class="modal-body">
 
-								<div class="form-group" style="display:inline">
-									<input type="text" placeholder="Username">
+						<form>
 
-									<input type="password" placeholder="Password">
-								</div>
-								<button type="submit" class="btn btn-primary">
-									Submit
-								</button>
-							</form>
+							<div class="form-group" style="display:inline">
+								<input type="text" placeholder="Username">
 
-							<div style="margin-top:10px;text-align:center;">
-								Don't have an account? <a href="#">Registering takes just a few minutes.</a>
+								<input type="password" placeholder="Password">
 							</div>
+							<button type="submit" class="btn btn-primary">
+								Submit
+							</button>
+						</form>
 
+						<div style="margin-top:10px;text-align:center;">
+							Don't have an account? <a href="#">Registering takes just a few minutes.</a>
 						</div>
-					</div><!-- /.modal-content -->
-				</div><!-- /.modal-dialog -->
-			</div><!-- /.modal -->
+
+					</div>
+				</div><!-- /.modal-content -->
+			</div><!-- /.modal-dialog -->
+		</div><!-- /.modal -->
 	</body>
 </html>
 
