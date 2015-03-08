@@ -27,6 +27,10 @@ html, body {
 	font-size: 22px;
 	color: #fff !important;
 }
+.navbar .container {
+	padding-left: 65px;
+	padding-right: 65px;
+}
 
 /*Welcome*/
 .banner {
@@ -87,14 +91,6 @@ html, body {
 	padding-right: 30px;
 }
 
-/*Contact*/
-.contact {
-	height: 100vh;
-	width: 100%;
-	margin: 0px;
-	background: #DDB088;
-}
-
 /*Footer*/
 .footer {
 	background: #000;
@@ -120,25 +116,7 @@ html, body {
 	font-size: 12px;
 }
 
-/*Modal*/
-#welcome-modal .modal-dialog {
-	top: 200px;
-	width: 470px;
-}
-#welcome-modal input {
-	height: 35px;
-	padding-left: 10px;
-	margin-right: 10px;
-	border-radius: 4px;
-	border: 1px solid #ddd;
-}
-#welcome-modal button {
-	margin-bottom: 6px;
-}
-.welcome-submit {
-	margin-right: 0px !important;
-	height: 38px;
-}
+/*Modals*/
 .modal-header {
 	background-color: #337AB7;
 	border-color: #2E6DA4;
@@ -154,3 +132,44 @@ html, body {
 	opacity: 1;
 }
 
+/*Login*/
+#login-modal .modal-dialog {
+	top: 200px;
+	width: 470px;
+}
+#login-modal input {
+	height: 35px;
+	padding-left: 10px;
+	margin-right: 10px;
+	border-radius: 4px;
+	border: 1px solid #ccc;
+}
+#login-modal button {
+	margin-bottom: 6px;
+}
+.welcome-submit {
+	margin-right: 0px !important;
+	height: 38px;
+}
+
+
+/*Contact*/
+#contact-modal .modal-dialog {
+	top: 150px;
+	width: 476px;
+}
+#contact-modal input {
+	height: 35px;
+	width: 100%;
+	margin-bottom: 10px;
+	padding-left: 5px;
+	border: 1px solid #ccc;
+}
+#contact-modal textarea {
+	margin-bottom: 10px;
+	padding-left: 5px;
+	border: 1px solid #ccc;
+}
+#contact-modal .contact-submit {
+	width: 100%;
+}

@@ -35,7 +35,7 @@
 							<a href="#about-scroll">About <span class="sr-only">(current)</span></a>
 						</li>
 						<li>
-							<a href="#contact-scroll">Contact</a>
+							<a data-toggle="modal" data-target="#contact-modal" href="#">Contact</a>
 						</li>
 
 					</ul>
@@ -44,7 +44,7 @@
 							<a href="#">Register</a>
 						</li>
 						<li>
-							<a href="#" data-toggle="modal" data-target="#welcome-modal">Login</a>
+							<a href="#" data-toggle="modal" data-target="#login-modal">Login</a>
 						</li>
 					</ul>
 
@@ -79,7 +79,7 @@
 					</ul>
 					<div class="center">
 
-						<button type="button" class="btn btn-lg btn-primary welcome-sign-in" data-toggle="modal" data-target="#welcome-modal">
+						<button type="button" class="btn btn-lg btn-primary welcome-sign-in" data-toggle="modal" data-target="#login-modal">
 							Login
 						</button>
 
@@ -143,15 +143,6 @@
 				</div>
 			</div>
 		</div>
-		
-		<!-- Contact -->
-		<div id="contact-scroll" class="container contact">
-			<div class="row">
-				<div class="col-md-12" style="margin-top: 80px;font-size: 56px; text-align: center; text-shadow: 1px 1px #fff;">
-					Contact
-				</div>
-			</div>
-		</div>
 
 		<!-- Footer -->
 		<div class="container footer">
@@ -177,13 +168,15 @@
 			</div>
 			<div class="row">
 				<div class="col-md-12 footer-credits">
-					&copy; 2015 by CopStats
+					&copy; 2015 CopStats
 				</div>
 			</div>
 		</div>
 
-		<!-- Modal -->
-		<div class="modal fade" id="welcome-modal">
+		<!-- Modals -->
+		
+		<!-- Login -->
+		<div class="modal fade" id="login-modal">
 			<div class="modal-dialog">
 				<div class="modal-content">
 					<div class="modal-header">
@@ -197,7 +190,7 @@
 						<form>
 
 							<div class="form-group" style="display:inline">
-								<input type="text" placeholder="Username">
+								<input type="text" placeholder="Username" class="login-focus">
 
 								<input type="password" placeholder="Password">
 							</div>
@@ -211,9 +204,39 @@
 						</div>
 
 					</div>
-				</div><!-- /.modal-content -->
-			</div><!-- /.modal-dialog -->
-		</div><!-- /.modal -->
+				</div><!-- /#login-modal -->
+			</div><!-- /#login-modal -->
+		</div><!-- /#login-modal -->
+		
+		<!-- Contact -->
+		<div class="modal fade" id="contact-modal">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+						</button>
+						<h4 class="modal-title">Send us a message</h4>
+					</div>
+					<div class="modal-body">
+
+						<form>
+
+							<div class="">
+								<input type="text" placeholder="Name" class="contact-focus">
+
+								<input type="text" placeholder="Subject">
+								<textarea type="text" rows="5" cols="60" placeholder="Message" class="contact-message"></textarea>
+							</div>
+							<button type="submit" class="btn btn-primary contact-submit">
+								Submit
+							</button>
+						</form>
+
+					</div>
+				</div><!-- /#contact-modal -->
+			</div><!-- /#contact-modal -->
+		</div><!-- /#contact-modal -->
 	</body>
 </html>
 
