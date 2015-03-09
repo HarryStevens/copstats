@@ -116,7 +116,7 @@
 					<div class="about-header">
 						<img style="margin-bottom: 20px;" src="img/policeman.png" width="28%">
 						<br />
-						Second Header
+						Personnel Files
 					</div>
 					<p>
 						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
@@ -131,7 +131,7 @@
 					<div class="about-header">
 						<img style="margin-bottom: 20px;" src="img/badge.png" width="26%">
 						<br />
-						Third Header
+						Freedom of Information
 					</div>
 					<p>
 						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
@@ -174,7 +174,7 @@
 		</div>
 
 		<!-- Modals -->
-		
+
 		<!-- Login -->
 		<div class="modal fade" id="login-modal">
 			<div class="modal-dialog">
@@ -204,13 +204,13 @@
 						</div>
 
 					</div>
-				</div><!-- /#login-modal -->
-			</div><!-- /#login-modal -->
+				</div><!-- /#login-modal .modal-content -->
+			</div><!-- /#login-modal .modal-dialog -->
 		</div><!-- /#login-modal -->
-		
+
 		<!-- Contact -->
 		<div class="modal fade" id="contact-modal">
-			<div class="modal-dialog">
+			<div class="modal-dialog contact-before show">
 				<div class="modal-content">
 					<div class="modal-header">
 						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
@@ -222,20 +222,35 @@
 
 						<form>
 
-							<div class="">
+							<div>
 								<input type="text" placeholder="Name" class="contact-focus">
 
 								<input type="text" placeholder="Subject">
 								<textarea type="text" rows="5" cols="60" placeholder="Message" class="contact-message"></textarea>
 							</div>
-							<button type="submit" class="btn btn-primary contact-submit">
+							<button class="btn btn-primary contact-submit">
 								Submit
 							</button>
 						</form>
 
 					</div>
-				</div><!-- /#contact-modal -->
-			</div><!-- /#contact-modal -->
+				</div><!-- /#contact-modal .modal-content -->
+			</div><!-- /#contact-modal .modal-dialog-->
+			<div class="modal-dialog contact-after hide">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+						</button>
+						<h4 class="modal-title">Your message has been sent</h4>
+					</div>
+					<div class="modal-body">
+						<div>
+							Thank you for contacting us. We will reply to your message as soon as we can.
+						</div>
+					</div>
+				</div><!-- /#contact-modal .modal-content -->
+			</div><!-- /#contact-modal .modal-dialog-->
 		</div><!-- /#contact-modal -->
 	</body>
 </html>

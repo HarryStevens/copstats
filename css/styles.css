@@ -7,6 +7,12 @@ html, body {
 .center {
 	text-align: center;
 }
+.show {
+	display: block;
+}
+.hide {
+	display: none;
+}
 
 /*Sections*/
 

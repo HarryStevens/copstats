@@ -43,4 +43,14 @@ $(document).ready(function() {
 		$('input').val('');
 		$('textarea').val('');
 	});
+	
+	//Contact modal, when submit button is click, show a message
+	$('.contact-submit').mousedown(function(){
+		$('.contact-before').addClass('hide').removeClass('show');
+		$('.contact-after').addClass('show').removeClass('hide');
+	});
+	$('#contact-modal').on('hidden.bs.modal', function() {
+		$('.contact-before').addClass('show').removeClass('hide');
+		$('.contact-after').addClass('hide').removeClass('show');		
+	});
 });
